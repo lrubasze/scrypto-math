@@ -7,8 +7,8 @@ description = "Math library extending Radix Scrypto with more advanced mathemati
 repository = "https://github.com/ociswap/scrypto-math"
 
 [dependencies]
-radix-rust = { git = "https://github.com/radixdlt/radixdlt-scrypto", tag = "bottlenose-9396c507" }
-radix-common = { git = "https://github.com/radixdlt/radixdlt-scrypto", tag = "bottlenose-9396c507" }
-radix-common-derive = { git = "https://github.com/radixdlt/radixdlt-scrypto", tag = "bottlenose-9396c507" }
+radix-rust = { git = "https://github.com/radixdlt/radixdlt-scrypto", rev = "220268f004" }
+radix-common = { git = "https://github.com/radixdlt/radixdlt-scrypto", rev = "220268f004" }
+radix-common-derive = { git = "https://github.com/radixdlt/radixdlt-scrypto", rev = "220268f004" }
 num-traits = "0.2.15"
 pretty_assertions = "1.4.0"
